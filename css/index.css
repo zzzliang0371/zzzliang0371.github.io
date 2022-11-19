@@ -1,0 +1,370 @@
+#logo{width: 70px;
+height: 70px;
+margin-left: 40px;
+}
+.about2 img{width: 400px;}
+#banner img{width: 1600px;height: 600px;}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+.head {
+  width: 90%;
+  min-width: 1200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0 3px 0;
+}
+.head ul {
+  position: relative;
+  top: 20px;
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  z-index: 99;
+}
+.head a{
+  width: 100%;
+  display: block;
+}
+.head li {
+  width: 100px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 20px !important;
+}
+.head div {
+  width: 200px;
+  display: none;
+  z-index: 99;
+  
+}
+.head div a {
+  padding: 10px 0 10px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px !important;
+}
+.head div a:hover {
+  background: #007134;
+  width: 100%;
+  color: #fff;
+}
+.head li:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+.head li:hover div {
+  background-color: #dddddd;
+  display: block;
+  line-height: 30px;
+}
+.head > P {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  padding: 10px 0;
+}
+#test1 {
+  min-width: 1200px;
+  margin-top: 20px;
+  height: 600px;
+}
+#test1 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+.main {
+  width: 70%;
+  margin: 20px auto;
+  min-width: 1200px;
+}
+.main > h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+.main > p {
+  text-align: center;
+  padding: 5px ;
+  color: #ccc;
+  font-size: 12px;
+}
+.doWhy {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  width: 100%;
+  animation: first 1.5s ease paused;
+}
+.doWhy p {
+  width: 23%;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-size: 18px;
+  font-weight: bold;
+}
+.doWhy p:hover {
+  background: #f0f0f0;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+}
+.about > div {
+  width: 45%;
+}
+.about .about1 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.about .about1 span {
+  color: #6bb90f;
+}
+.about .about1 p {
+  font-size: 16px;
+  text-indent: 2rem;
+  line-height: 1.8;
+  text-indent: 2em;
+}
+.about .about1 h4 {
+  font-weight: normal;
+  font-size: 12px;
+  color: #ccc;
+  padding: 5px 0 0;
+  margin-bottom: 10px;
+}
+.about .about2 {
+  width: 50%;
+  height: 400px;
+  background: url(../images/about_bj.jpg);
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.about .about2 div {
+  width: 100%;
+  position: relative;
+}
+.about .about2 h2 {
+  font-size: 28px;
+  font-weight: normal;
+}
+.about .about2 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about .about2 p {
+  font-size: 12px;
+  color: #ccc;
+  padding: 5px 0 0;
+}
+.about .about2 iframe {
+  width: 100%;
+  margin-top: 20px;
+  height: 280px;
+}
+.case {
+  display: flex;
+  padding: 20px 0 40px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.case > img {
+  width: 5%;
+  cursor: pointer;
+}
+.case .swiper-container {
+  width: 85%;
+  height: 240px;
+  margin-top: 20px;
+}
+.case .swiper-container img {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+.case .swiper-container p {
+  width: 100%;
+  background: #f1f1f1;
+  box-sizing: border-box;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.case .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+.client {
+  display: flex;
+  padding: 20px 0 40px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.client > img {
+  width: 5%;
+  cursor: pointer;
+}
+.client .swiper-container {
+  width: 85%;
+  height: 110px;
+  margin-top: 20px;
+}
+.client .swiper-container img {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.client .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+.message {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  padding-bottom: 120px;
+  justify-content: space-between;
+}
+.message img {
+  display: block;
+  width: 100%;
+}
+.message ul li {
+  border-bottom: 1px dashed #eee;
+  padding: 10px 0;
+}
+.message ul i {
+  float: right;
+  font-style: normal;
+}
+.message .messageLeft {
+  width: 55%;
+}
+.message .messageLeft .active {
+  background: #6bb90f;
+  color: #fff;
+}
+.message .messageLeft P {
+  display: flex;
+  padding-bottom: 40px;
+}
+.message .messageLeft P span {
+  display: block;
+  width: 100px;
+  text-align: center;
+  height: 35px;
+  margin-right: 10px;
+  line-height: 35px;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+}
+.message .messageLeft P span:hover {
+  background: #6bb90f;
+  color: #fff;
+}
+.message .messageRig {
+  width: 40%;
+}
+.message .messageRig p {
+  font-size: 16px;
+}
+.message > p {
+  position: absolute;
+  bottom: 20px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #6bb90f;
+  color: #6bb90f;
+  left: 50%;
+  text-align: center;
+  line-height: 40px;
+  transform: translate(-50%);
+  font-size: 16px;
+}
+.message > P:hover {
+  color: #fff;
+  background: #6bb90f;
+  cursor: pointer;
+}
+.footer{
+  background: url(../image/f_bg.gif) no-repeat center 0;
+  height: 353px;
+  font-family: "微软雅黑";
+}
+.footer_q{
+  width: 960px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.footer_top a{
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.footer_top a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.footer_top{
+  height: 61px;
+  line-height: 71px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 38px;
+}
+.footer_bottom h3{
+  float: left;
+  font-size: 20px;
+  padding: 31px 43px 0 94px;
+}
+.footer_bottom p{
+  float: left;
+  padding-top: 14px;
+}
+.footer_bottom p i{
+  font-style: normal;
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  line-height: 23px;
+}
+.footer_bottom p i span{
+  padding: 0 20px;
+}
+.footer_bottom p i img{
+  padding-top: 5px;
+}
+@keyframes first {
+  from {
+    transform: translateX(110%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
